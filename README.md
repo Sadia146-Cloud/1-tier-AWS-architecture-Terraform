@@ -25,15 +25,20 @@ Terraform Provisioning
 
 .
 ├── main.tf          # Main infrastructure config
+
 ├── variables.tf     # Variable definitions
+
 ├── outputs.tf       # Output values
+
 └── README.md        # Project documentation
 
 
 Commands used:
 
 1.terraform init
+
 2.terraform plan
+
 3.terraform apply
 
 Access the Web Server
@@ -45,6 +50,7 @@ You should see:
 Hello from Terraform EC2
 
 Clean up:
+
 terraform destroy
 
 
